@@ -1,4 +1,4 @@
-# [Sponsorname] Audit
+# Ethena Labs Audit
 
 Audit findings are submitted to this repo.
 
