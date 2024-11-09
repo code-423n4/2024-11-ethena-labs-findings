@@ -1,0 +1,8 @@
+{
+  "contest": 463,
+  "handle": "Topmark",
+  "risk": "2",
+  "title": "Denial of Service when Delegated Address Wants to Reject a Previously Confirmed Delegation.",
+  "issueId": 5,
+  "issueUrl": "https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/5"
+}
