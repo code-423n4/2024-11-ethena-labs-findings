@@ -1,0 +1,8 @@
+{
+  "contest": 463,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "Precision loss in `verifyStablesLimit` function may cause incorrect validation for collateral amounts",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/8"
+}
