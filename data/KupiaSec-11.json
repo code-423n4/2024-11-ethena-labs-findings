@@ -1,0 +1,8 @@
+{
+  "contest": 463,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "Lack of Functionality for Signer to Revoke Delegation",
+  "issueId": 11,
+  "issueUrl": "https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/11"
+}
