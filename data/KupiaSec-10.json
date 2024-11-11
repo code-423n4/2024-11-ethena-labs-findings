@@ -1,0 +1,8 @@
+{
+  "contest": 463,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "Missing Whitelist Check in `setApprovedBeneficiary`",
+  "issueId": 10,
+  "issueUrl": "https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/10"
+}
