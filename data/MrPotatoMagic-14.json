@@ -1,0 +1,8 @@
+{
+  "contest": 463,
+  "handle": "MrPotatoMagic",
+  "risk": "2",
+  "title": "UStb can be minted to non-whitelisted users during WHITELIST_ENABLED state",
+  "issueId": 14,
+  "issueUrl": "https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/14"
+}
