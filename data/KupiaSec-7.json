@@ -1,0 +1,8 @@
+{
+  "contest": 463,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "Inconsistent `order_id` type in `ORDER_TYPE` definition and `encodeOrder` function for EIP-712",
+  "issueId": 7,
+  "issueUrl": "https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/7"
+}
