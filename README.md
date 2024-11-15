@@ -86,8 +86,6 @@ Once you have confirmed the findings you intend to mitigate, you will want to ad
 
 *Note: You can work on your mitigations during the judging phase -- or beyond it, if you need more time. We won't publish the final audit report until you give us the OK.*
 
-### If you are planning a Code4rena mitigation review:
-
 1. In your own Github repo, create a branch based off of the commit you used for your Code4rena audit, then
 2. Create a separate Pull Request for each **High or Medium risk** C4 audit finding that you confirmed (e.g. one PR for finding H-01, another for H-02, etc.)
 3. Link the PR to the issue that it resolves within your audit findings repo. (If the issue in question has duplicates, please link to your PR from the open/primary issue.)
@@ -95,10 +93,3 @@ Once you have confirmed the findings you intend to mitigate, you will want to ad
 Most C4 mitigation reviews focus exclusively on reviewing mitigations of High and Medium risk findings. Therefore, QA and Gas mitigations should be done in a separate branch. If you want your mitigation review to include QA or Gas-related PRs, please reach out to C4 staff and let’s chat!
 
 If several findings are inextricably related (e.g. two potential exploits of the same underlying issue, etc.), you may create a single PR for the related findings.
-
-### If you aren’t planning a mitigation review
-
-1. Within a repo in your own GitHub organization, create a pull request for each finding.
-2. Link the PR to the issue that it resolves within your audit findings repo. (If the issue in question has duplicates, please link to your PR from the open/primary issue.)
-
-This will allow for complete transparency in showing the work of mitigating the issues found in the audit.
