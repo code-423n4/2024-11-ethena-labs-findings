@@ -142,18 +142,18 @@ For this audit, 5 reports were submitted by wardens detailing low risk and non-c
 
 | Issue ID | Issue Name                                                                 |
 |----------|----------------------------------------------------------------------------|
-| [L-01]) | The `addBlacklistAddress` and `addWhitelistAddress` functions do not check whether the user has opposite role |
-| [L-02] | In the constructor of `UStbMinting` contract, it does not set `ustb` |
-| [L-03] | The `_computeDomainSeparator` function incorrectly encodes `bytes32` variable as `string` type |
-| [L-04] | `differenceInBps` is calculated with a precision of 10^4 |
-| [L-05] | If the `collateral_asset` is native token, minting is unavailable even though redeeming is available. |
-| [L-06] | Most of the event parameters are of the `uint256` data type, but `uint128` variables are used when emitting them |
-| [L-07] | The`GATEKEEPER_ROLE` shouldn't be allowed to remove the `COLLATERAL_MANAGER_ROLE` |
-| [L-08] | Unnecessary check of `tokenConfig[asset].isActive` in the `_transferToBeneficiary` function. |
-| [L-09] | Non-blacklisted addresses can't burn `UStb` tokens in a `FULLY_ENABLED` transfer state if `address(0)` is blaklisted |
-| [L-10] | The `redistributeLockedAmount()` function does not verify if the address `to` possesses the `WHITELISTED_ROLE` when `WHITELIST_ENABLED`. |
-| [L-11] | There is no function available to transfer UStb from unwhitelisted users to whitelisted users. |
-| [L-12] | The `_beforeTokenTransfer()` function does not verify whether addresses are whitelisted when `WHITELIST_ENABLED` is set. |
+| L-01 | The `addBlacklistAddress` and `addWhitelistAddress` functions do not check whether the user has opposite role |
+| L-02 | In the constructor of `UStbMinting` contract, it does not set `ustb` |
+| L-03 | The `_computeDomainSeparator` function incorrectly encodes `bytes32` variable as `string` type |
+| L-04 | `differenceInBps` is calculated with a precision of 10^4 |
+| L-05 | If the `collateral_asset` is native token, minting is unavailable even though redeeming is available. |
+| L-06 | Most of the event parameters are of the `uint256` data type, but `uint128` variables are used when emitting them |
+| L-07 | The`GATEKEEPER_ROLE` shouldn't be allowed to remove the `COLLATERAL_MANAGER_ROLE` |
+| L-08 | Unnecessary check of `tokenConfig[asset].isActive` in the `_transferToBeneficiary` function. |
+| L-09 | Non-blacklisted addresses can't burn `UStb` tokens in a `FULLY_ENABLED` transfer state if `address(0)` is blaklisted |
+| L-10 | The `redistributeLockedAmount()` function does not verify if the address `to` possesses the `WHITELISTED_ROLE` when `WHITELIST_ENABLED`. |
+| L-11 | There is no function available to transfer UStb from unwhitelisted users to whitelisted users. |
+| L-12 | The `_beforeTokenTransfer()` function does not verify whether addresses are whitelisted when `WHITELIST_ENABLED` is set. |
 
 ## [L-01] The `addBlacklistAddress` and `addWhitelistAddress` functions do not check whether the user has opposite role
 
@@ -498,7 +498,7 @@ Include checks to ensure that the addresses are whitelisted.
 > L-12 Invalid
 >
 >
-> The judge also highlighted the downgraded issues [#7](https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/7) and [#8](https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/8) to be linked in this report for completeness.*
+> The judge also highlighted the downgraded issues [#7](https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/7) and [#8](https://github.com/code-423n4/2024-11-ethena-labs-findings/issues/8) to be linked in this report for completeness.
 
 ***
 
